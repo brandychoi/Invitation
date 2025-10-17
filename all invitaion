@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>새마음교회 임직식에 초대합니다</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Serif KR', serif;
+        }
+        .invitation-card {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            animation: fadeIn 1s ease-in-out;
+            background-color: #fdfdfa; /* 부드러운 배경색 */
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .imjik-list {
+            background-color: #f7f2e9; /* 임직자 목록 배경색 */
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4 sm:p-6">
+    <!-- 초대장 카드 -->
+    <div class="invitation-card w-full max-w-xl mx-auto rounded-xl overflow-hidden">
+        
+        <!-- 메인 컨텐츠 -->
+        <div class="p-8 sm:p-12 text-center">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6 leading-tight">
+                새마음교회 설립 39주년 기념<br>감사 예배 및 임직식
+            </h1>
+            <div class="tracking-widest text-gray-700 text-lg mb-6">
+                <span class="inline-block border-t border-b border-gray-400 px-4 py-1">INVITATION</span>
+            </div>
+
+            <p class="text-gray-600 leading-loose mb-8 max-w-lg mx-auto text-base">
+                하나님의 은혜와 평화가 섬기시는 가정과 교회에<br>충만하시기를 기도드립니다.
+                <br><br>
+                본 교회에서는 주의 은혜로 임직감사예배를 갖고자 합니다.<br>
+                교회와 하나님 나라를 위해 쓰임 받을 일꾼들을 위해 기도해 주시고<br>
+                이 뜻깊은 날에 기쁨을 함께하며<br>
+                격려와 축복으로 함께해 주시기를 바랍니다.
+            </p>
+            
+            <div class="text-gray-700 font-semibold leading-relaxed">
+                <p>당회장 목사 박 철 규</p>
+                <p>외 새마음교회 교우 일동</p>
+            </div>
+
+            <div class="border-t border-gray-200 my-10"></div>
+
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">새마음교회 임직자</h2>
+
+            <div class="imjik-list text-left max-w-md mx-auto">
+                <div class="text-gray-700 grid grid-cols-[auto_auto_1fr] items-start gap-x-2 gap-y-2">
+                    <b class="font-semibold">명예장로</b> <span>:</span> <p>정문교, 이기우, 최만호</p>
+                    <b class="font-semibold">장로장립</b> <span>:</span> <p>정택군, 박진균</p>
+                    <b class="font-semibold">안수집사</b> <span>:</span> <p>김종희, 이준재, 김한민, 최중욱</p>
+                    <b class="font-semibold">명예권사</b> <span>:</span> <p>곽자양, 이명자, 노해순</p>
+                    <!-- 권사취임 부분을 두 줄로 나누어 간격을 조정했습니다 -->
+                    <b class="font-semibold">권사취임</b> <span>:</span> <p>이후동, 강승희, 한수경, 최보윤</p>
+                    <b></b> <span></span> <p>진은주, 남경희, 주혜진, 황수연</p>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-200 my-10"></div>
+            
+            <div class="space-y-4 text-center">
+                 <div>
+                    <p class="font-bold text-gray-700">일시</p>
+                    <p class="text-gray-600">2025년 10월 26일 (주일) 오후 3시</p>
+                </div>
+                <div>
+                    <p class="font-bold text-gray-700">장소</p>
+                    <p class="text-gray-600">새마음교회 본당 3층</p>
+                </div>
+            </div>
+
+            <!-- 카카오맵, 네이버지도 길찾기 버튼 -->
+            <div class="mt-8 flex justify-center items-center gap-4">
+                <a href="https://map.kakao.com/link/search/서울 양천구 월정로 173" target="_blank" class="flex-1 text-center bg-[#FEE500] text-black py-2 px-4 rounded-lg hover:bg-yellow-400 transition-colors duration-300 text-sm font-bold">
+                    카카오맵
+                </a>
+                <a href="https://map.naver.com/p/search/서울 양천구 월정로 173" target="_blank" class="flex-1 text-center bg-[#03C75A] text-white py-2 px-4 rounded-lg hover:bg-green-600 transition-colors duration-300 text-sm font-bold">
+                    네이버지도
+                </a>
+            </div>
+
+        </div>
+
+        <!-- 하단 푸터 -->
+        <div class="bg-gray-50 p-6 text-center border-t">
+            <p class="text-gray-600">예수의 이름으로 오늘을 살아라 (갈 2:20)</p>
+        </div>
+    </div>
+</body>
+</html>
